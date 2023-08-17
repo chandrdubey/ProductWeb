@@ -1,13 +1,23 @@
-# Javascript
+# Product App
+## Installation
+- Clone the repository using `git clone` and then change the directory to root of the project
+``` 
+   https://github.com/chandrdubey/Marvel-api-explorer.git
+    cd Marvel-api-explorer
+```
+- Use npm to install dependencies for the project.
+```
+> npm i  #For Backend dependencies
 
-Before you get started, make sure you have node installed and configured correctly. 
+> npm run f-install  #For Frontend dependencies 
+```
 
-To build, open your terminal and navigate to the `javascript` directory in this project and run `npm install`.
+- Run the program by npm using
+```
+> npm run app
+```
+- Above command will start both frontend and backend server.
+> Frontend => http://localhost:3000
 
-To start your server, run `node index.js`.  Open up your favorite browser and navigate to http://localhost:3001/ and you should see "Hello World!".
+> Backend => http://localhost:3001
 
-To run tests for the project, run `npm test`.
-
-To lint the project, run `npm run lint`.
-
-Now follow the steps outlined in [The Problem](https://github.com/hinge-health/interviews-services#the-problem)
