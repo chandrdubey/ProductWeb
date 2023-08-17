@@ -9,7 +9,7 @@
     "start": "nodemon index.js",
     "frontEnd": "cd client && npm start",
     "app": "concurrently \"npm run start\" \"npm run frontEnd\"",
-    "f-install": "cd src && cd frontEnd && npm install"
+    "f-install": "cd client && npm install"
   },
   "author": "",
   "license": "ISC",
