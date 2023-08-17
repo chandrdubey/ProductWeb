@@ -2,7 +2,7 @@
 ## Installation
 - Clone the repository using `git clone` and then change the directory to root of the project
 ``` 
-   https://github.com/chandrdubey/Marvel-api-explorer.git
+    https://github.com/chandrdubey/ProductWeb.git
     cd Marvel-api-explorer
 ```
 - Use npm to install dependencies for the project.
