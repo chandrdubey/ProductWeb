@@ -1,6 +1,7 @@
 import express from'express'
 import {getAllProducts, udpateProduct}  from "./controllers/index.js"
 import bodyParser from 'body-parser';
+import 'dotenv/config'
 import mongoose from './database/index.js';
 import Product  from './modal/products.js';
 import cors from 'cors'
